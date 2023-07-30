@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.back1{
+    /* background-image: linear-gradient(to bottom right, black, white); */
+    background-image: url(../karsten-wurth-7BjhtdogU3A-unsplash.jpg);
+    filter: contrast(1.4);
+    height: 100vh;
+    background-position: center;
+    background-size:cover ;
+}
+.back2{
+    background-image: url(../geranimo-a2zdgkDzFo8-unsplash.jpg);
+    filter: contrast(1.2);
+    height: 100vh;
+    background-position: center;
+    background-size:cover ;
+}
+.back3{
+    background-image: url(../alexandre-dinaut-YQQHHhKoJ78-unsplash.jpg);
+    filter: contrast(1.4);
+    height: 100vh;
+    background-position: center;
+    background-size:cover ;
+}
+.bg {
+    background-color: rgba(0, 0, 0, 0.261);
+    backdrop-filter: blur(10px);
+}
+
+.content h1 {
+    margin: auto;
+    width: fit-content;
+    font-family: monospace;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    transition: all 0.5s;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.content h1:hover {
+    border: 2px solid;
+    font-size: 3.125rem;
+
+}
+
+.content input {
+    margin: 1.25rem 0;
+    background-color: transparent;
+    padding: .9375rem;
+    font-family: monospace;
+    font-size: 1.25rem;
+    color: rgb(255, 255, 255);
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    font-size: 1.25rem;
+}
+
+.content button {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    padding: 5px;
+    font-family: monospace;
+    transition: all 0.3s;
+}
+
+.content button:hover {
+    color: white;
+    font-size: 1.5rem;
+    
+}
+
+.content p {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(204, 204, 204);
+    font-weight: 500;
+}
+
+.content a {
+    font-size: 20px;
+    font-family: monospace;
+    color: black;
+    font-weight: 900;
+    text-decoration: none;
+    transition: all 0.3s;
+    color: #ffffff;
+}
+
+.content a:hover {
+    font-size: 22px;
+}
+
+.content .user {
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 0 0.625rem;
+    margin:0 0.625rem ;
+
+}
